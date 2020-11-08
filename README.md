@@ -29,4 +29,4 @@ Other possible partitions could be e.g. (4,3,1), (4,2,2). In my solution, I perm
 
 4. Find the right partition of hub units.
 
-## Enjoy!
+## Good luck!
