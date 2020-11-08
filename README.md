@@ -16,7 +16,7 @@
 
 2. Modify the list __options__ with the units you want
 
-Now all the magic happens in the code following the declaration of __options__. You'll need to do use the power of programming and some trial and error to make it usable for you. Let's first try to theoretically solve the problem of distributing the hub requirements into x courses. There is probably a nice solution to it, if we were to turn it into a knapsack problem. But I'm lazy so I just bruteforced it.
+Now all the magic happens in the code following the declaration of __options__. You'll need to do use the power of programming and some trial and error to make it usable for you. Let's first think of the problem of distributing the hub requirements into x courses. There is probably a nice solution to it, if we were to turn it into a knapsack problem. But I'm lazy so I just bruteforced it.
 
 You need trial & error to find the minimum number of courses, and the partitioning of units within those courses. For me it was 3 courses and I tried this:
 - 1st course (group A) will fulfill 3 requirements
