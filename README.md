@@ -23,7 +23,7 @@ You need trial & error to find the minimum number of courses, and the partitioni
 - 2nd course (group B) will fulfill another 3 requirements
 - 3rd course (group C) will fulfill 2 requirements.
 
-Other possible partitions could be e.g. (4,3,1), (4,2,2). The outcome of the code will be the possible distributions of courses in the categories you designate. You only need to take 1 course from each category to fulfill all the requirements. If you want to see an example of how the code works, use the course-test.json.
+Other possible partitions could be e.g. (4,3,1), (4,2,2). In my solution, I permute all the courses in options, then based on the partitioning of units I chose (say 3,3,2), I find all courses that fulfill the first 3 units in the permutation to make group A, then all courses that fulfill the next 3 units for group B, then all courses that fulfill the next 2 units for group C. I check all permutations. The outcome of the code will be the possible distributions of courses in the categories you designate. You only need to take 1 course from each category to fulfill all the requirements. If you want to see an example of how the code works, use the course-test.json.
 
 3. Figure out the minimum number of sections you need (a course can fulfill 3 units max)
 
