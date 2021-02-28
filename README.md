@@ -1,3 +1,4 @@
+#How To Pass BU Hub Requirement with Minimal Course Scheduling
 ## Step 1
 1. Visit this site:
 [Course Search](https://www.bu.edu/phpbin/course-search)
